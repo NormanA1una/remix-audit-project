@@ -1,0 +1,59 @@
+@tailwind components;
+
+@layer components {
+  .language-div-container {
+    @apply px-6 container mx-auto mb-[128px];
+  }
+
+  .language-principal-text {
+    @apply flex flex-col gap-5 mb-9 lg:mb-24 xl:mb-28 max-w-[1112px] mx-auto;
+  }
+
+  .spacing-subtitle-language {
+    @apply lg:max-w-[700px] mx-auto;
+  }
+
+  .div-languages-cards {
+    @apply flex flex-col gap-10 lg:gap-24 xl:gap-28;
+  }
+
+  .div-conatiner-language-card {
+    @apply flex flex-col gap-14;
+  }
+
+  .english-card-content-position {
+    @apply items-end;
+  }
+
+  .div-text-language-card {
+    @apply flex flex-col gap-5 lg:max-w-[476px];
+  }
+
+  .div-wrapper-absolute {
+    @apply w-fit lg:absolute;
+  }
+
+  .div-wrapper-relative {
+    @apply relative;
+  }
+
+  .spanish-absolute {
+    @apply ml-auto lg:right-16 lg:-top-[40%] xl:-top-[43%];
+  }
+
+  .english-absolute {
+    @apply mr-auto lg:left-16 lg:-top-[40%] xl:-top-[46%];
+  }
+
+  .spanish-flag-absolute {
+    @apply h-[80px] md:h-[100px] lg:h-auto absolute -top-4 md:-top-7 lg:top-20 xl:top-[5.5rem] left-8 md:left-2 lg:left-auto lg:-right-[8.5rem];
+  }
+
+  .english-flag-absolute {
+    @apply h-[80px] md:h-[100px] lg:h-auto absolute -top-[3%] md:-top-[10%] lg:top-5 right-5 md:right-2 lg:right-auto lg:-left-32;
+  }
+
+  .persona-dimension {
+    @apply h-[210px] xl:h-auto;
+  }
+}

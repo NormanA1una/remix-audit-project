@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+  .container-service {
+    @apply container mx-auto pt-[200px] mb-[127px] xl:mb-[200px];
+  }
+
+  .spacing-subtitle-service {
+    @apply max-w-[600px];
+  }
+
+  .services-titles {
+    @apply flex flex-col px-6 gap-[22px] md:gap-5 mx-auto items-center justify-center mb-[48px];
+  }
+
+  .container-card-service-prev {
+    @apply max-w-[1112px] mx-auto px-6;
+  }
+
+  .spacing-button-service {
+    @apply flex justify-center;
+  }
+}

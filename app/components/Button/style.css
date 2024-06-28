@@ -1,0 +1,89 @@
+@tailwind components;
+
+@layer components {
+  /* Variant */
+  .contained {
+    @apply rounded-lg font-semibold leading-6;
+  }
+
+  .light-outline {
+    @apply rounded-lg font-semibold leading-6 bg-transparent border border-[#FCFCFC] text-[#FCFCFC]  focus:bg-[#57BEEA] focus:border-[#57BEEA] focus:text-[#151718] hover:bg-[#57BEEA] hover:border-[#57BEEA] hover:text-[#151718];
+  }
+
+  .url-style {
+    @apply font-bold text-[#1C79A0] leading-[26px] underline underline-offset-4 hover:text-[#151718];
+  }
+
+  .questions-style {
+    @apply font-bold;
+  }
+
+  .icon-style {
+    @apply font-bold;
+  }
+
+  /* Color */
+  .nav {
+    @apply bg-[#57BEEA] border-[1px] border-[#57BEEA] text-[#151718] focus:text-[#FCFCFC] focus:bg-[#06A2E4] focus:border-[#06A2E4] hover:bg-transparent hover:text-[#FCFCFC] hover:border-[#FCFCFC];
+  }
+
+  .main {
+    @apply border bg-[#57BEEA] border-[#57BEEA] text-[#151718] focus:text-[#FCFCFC] focus:bg-[#57BEEA] focus:border-[#57BEEA] hover:bg-transparent hover:text-[#FCFCFC] hover:border-[#FCFCFC];
+  }
+
+  .dark {
+    @apply bg-[#012F5B] border-[#012F5B] text-[#FCFCFC] focus:bg-[#57BEEA] hover:bg-[#2D6CA8] hover:border-[#2D6CA8];
+  }
+
+  .dark-outline {
+    @apply border border-[#012F5B] text-[#012F5B] focus:bg-[#012F5B] focus:border-[#012F5B] focus:text-[#FCFCFC] hover:bg-[#012F5B] hover:border-[#2D6CA8] hover:text-[#FCFCFC];
+  }
+
+  .service {
+    @apply bg-[#FCFCFC] text-[#151718] font-semibold leading-[26px] hover:bg-[#57BEEA];
+  }
+
+  .service-blue {
+    @apply bg-transparent border border-[#012F5B] text-[#151718] font-semibold leading-[26px] hover:border-[#012F5B] hover:bg-[#012F5B] hover:text-[#FCFCFC];
+  }
+
+  /* Size */
+
+  .small {
+    @apply px-[50px] py-1 text-sm;
+  }
+
+  .medium {
+    @apply px-8 py-3 text-sm;
+  }
+
+  .large {
+    @apply px-9 py-4 text-base;
+  }
+
+  /* Full width */
+
+  .button-full {
+    @apply w-full;
+  }
+
+  /* Navbar */
+  .button-navbar-custom {
+    @apply flex items-center gap-2;
+  }
+
+  /* Form button continue */
+  .button-continue-custom {
+    @apply w-full md:w-auto;
+  }
+
+  /* Question button custom */
+  .question-button-custom {
+    @apply w-full text-start text-[#012F5B];
+  }
+
+  /* About button custom */
+  .about-home-button-custom {
+    @apply button-full md:max-w-[190px];
+  }
+}

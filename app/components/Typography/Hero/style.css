@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .hero-title-style {
+    @apply text-3xl md:text-5xl xl:text-7xl font-bold text-[#FCFCFC];
+  }
+}

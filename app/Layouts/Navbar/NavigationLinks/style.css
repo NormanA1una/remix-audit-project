@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+  .ul-style {
+    @apply flex gap-9;
+  }
+
+  .li-style-group {
+    @apply relative inline-block;
+  }
+
+  .link-active {
+    @apply border-b-[1px] border-[#57BEEA] pb-[2.5px] font-bold text-[#FCFCFC];
+  }
+
+  .link-active-light {
+    @apply border-b-[1px] border-[#57BEEA] pb-[2.5px] font-bold text-[#012F5B];
+  }
+
+  .link-span-animated {
+    @apply ease-out absolute bottom-0 left-0 h-0 w-0 border-b-[1px] border-[#57BEEA] transition-all duration-200 group-hover:w-full;
+  }
+}

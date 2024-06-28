@@ -1,0 +1,35 @@
+@tailwind components;
+
+@layer components {
+  .container-process {
+    @apply container mx-auto px-6 mb-[138px] xl:mb-[200px];
+  }
+
+  .div-titles-process {
+    @apply flex flex-col justify-center items-center gap-[22px] mb-12 md:mb-20;
+  }
+
+  .spacing-subtitle-process {
+    @apply max-w-[327px];
+  }
+
+  .spacing-subtitle-process-spanish {
+    @apply max-w-[627px];
+  }
+
+  .div-steps-process {
+    @apply flex flex-col lg:flex-row lg:justify-around gap-5 mb-12 xl:w-[976px] xl:mx-auto  lg:[&>*:nth-child(1)]:translate-y-[100%] lg:[&>*:nth-child(3)]:translate-y-[100%];
+  }
+
+  .spacing-upload-img {
+    @apply flex justify-center max-w-[327px] mx-auto;
+  }
+
+  .upload-img-style {
+    @apply max-[375px]:w-[272px];
+  }
+
+  .elipse-bg-process {
+    @apply xl:px-32;
+  }
+}

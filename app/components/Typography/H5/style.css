@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  .h5-styling {
+    @apply font-normal text-lg xl:text-[22px] text-[#000000] leading-[26px] xl:leading-[32px];
+  }
+
+  .h5-secondary {
+    @apply font-bold text-lg xl:text-[22px] leading-[30.05px] text-[#012F5B];
+  }
+}

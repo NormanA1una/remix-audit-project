@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .h4-styling {
+    @apply font-bold text-2xl text-[#101828] leading-[29.05px];
+  }
+}

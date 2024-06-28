@@ -1,0 +1,55 @@
+@tailwind components;
+
+@layer components {
+  .values-div-container {
+    @apply px-6 container mx-auto mb-[128px] xl:mb-52;
+  }
+
+  .values-principal-text {
+    @apply flex flex-col gap-3 mb-9 max-w-[1112px] mx-auto;
+  }
+
+  .spacing-subtitle-values {
+    @apply lg:max-w-[700px] mx-auto;
+  }
+
+  .container-all-cards-values {
+    @apply flex flex-col gap-8;
+  }
+
+  .container-smalls-cards-values {
+    @apply flex flex-col md:flex-row gap-8 max-w-[1112px] mx-auto;
+  }
+
+  .small-img-small-card {
+    @apply flex justify-center mb-14;
+  }
+
+  .text-small-card {
+    @apply flex flex-col gap-2;
+  }
+
+  .wrapper-large-card {
+    @apply lg:flex lg:items-center xl:gap-12;
+  }
+
+  .values-text-expertise {
+    @apply flex flex-col gap-3 lg:max-w-[315px] mx-auto;
+  }
+
+  .text-placement-large-card {
+    @apply lg:max-w-[285px];
+  }
+
+  .div-large-card-img-container {
+    @apply flex flex-col md:flex-row gap-8 mt-9 mb-9 md:mb-0 lg:mt-0;
+  }
+
+  .img-and-text-expertise {
+    @apply flex flex-col gap-5 p-4;
+  }
+
+  .img-expertise {
+    @apply flex justify-center;
+  }
+}

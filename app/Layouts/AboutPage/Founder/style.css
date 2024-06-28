@@ -1,0 +1,31 @@
+@tailwind components;
+
+@layer components {
+  .founder-div-container {
+    @apply px-6 container mx-auto mb-[128px] xl:mb-52;
+  }
+
+  .container-full-wrap {
+    @apply flex flex-col lg:flex-row max-w-[1112px] mx-auto lg:items-center lg:justify-around;
+  }
+
+  .div-container-founder-img {
+    @apply pl-[31.64px] pt-[31.64px] flex w-fit mb-9 mx-auto lg:mx-0;
+  }
+
+  .effect-founder-img {
+    @apply drop-shadow-[-31.64px_-31.64px_0px_#57BEEA] rounded-xl md:h-[360px] lg:h-[400px] md:w-auto;
+  }
+
+  .container-text-founder {
+    @apply flex flex-col gap-9 lg:max-w-[550px];
+  }
+
+  .div-name-founder {
+    @apply flex flex-col gap-3;
+  }
+
+  .div-resume-founder {
+    @apply flex flex-col gap-4;
+  }
+}

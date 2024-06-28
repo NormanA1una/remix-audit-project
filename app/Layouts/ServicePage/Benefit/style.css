@@ -1,0 +1,51 @@
+@tailwind components;
+
+@layer components {
+  .benefit-div-container {
+    @apply px-6 container mx-auto mb-[128px];
+  }
+
+  .benefit-principal-text {
+    @apply flex flex-col gap-3 mb-9 max-w-[1112px] mx-auto;
+  }
+
+  .spacing-subtitle-benefit {
+    @apply lg:max-w-[700px] mx-auto;
+  }
+
+  .div-wrapper-benefit-card {
+    @apply flex flex-col gap-9;
+  }
+
+  .div-container-big-card {
+    @apply flex flex-col md:flex-row-reverse items-center justify-center gap-6;
+  }
+
+  .div-image-mosaico {
+    @apply grid grid-cols-2 w-fit gap-4 z-10;
+  }
+
+  .mosaico-style {
+    @apply w-auto min-[660px]:w-[150px];
+  }
+
+  .div-container-slim-card {
+    @apply flex flex-col gap-9 md:flex-row max-w-[1112px] mx-auto w-full;
+  }
+
+  .div-container-slim {
+    @apply flex flex-col justify-between h-full gap-6 lg:max-w-[436px] mx-auto;
+  }
+
+  .title-slim-card-spacing {
+    @apply h-[77.44px] flex items-center;
+  }
+
+  .bg-whit-image-slim-card {
+    @apply !bg-no-repeat !bg-cover !bg-center !h-[182px] md:!h-[300px] lg:!h-[562px] w-full rounded-[20px];
+  }
+
+  .div-benefit-text {
+    @apply flex flex-col gap-5 w-full max-w-[512px];
+  }
+}

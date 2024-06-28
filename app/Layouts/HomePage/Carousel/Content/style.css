@@ -1,0 +1,65 @@
+@tailwind components;
+
+@media screen and (min-width: 768px) {
+  .swiper-slide {
+    width: 500px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-slide {
+    width: 804px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonial-color {
+    color: #1c79a0 !important;
+  }
+}
+
+@layer components {
+  .spacing-swiper {
+    @apply !pb-0;
+  }
+
+  .swiper-position {
+    @apply !bottom-12;
+  }
+
+  .spacing-slide {
+    @apply mb-14;
+  }
+
+  .div-spacing-carousel {
+    @apply flex flex-col lg:flex-row lg:items-center;
+  }
+
+  .img-carousel {
+    @apply mb-4 min-w-[130px];
+  }
+
+  .hr-styling {
+    @apply my-6 lg:hidden;
+  }
+
+  .div-separator-style {
+    @apply hidden lg:block lg:min-h-[300px] xl:min-h-[400px] lg:w-[1px] bg-[#EBF0F3] mr-7;
+  }
+
+  .div-spacing-button {
+    @apply flex gap-5 justify-center;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply !w-6 !rounded !bg-black !opacity-100 md:w-5;
+  }
+
+  .div-img-card-carousel {
+    @apply flex flex-col justify-start items-center w-full lg:max-w-[130px] lg:mr-16 lg:ml-4 z-10;
+  }
+
+  .div-text-card-carousel {
+    @apply flex flex-col justify-center lg:text-start text-center gap-2;
+  }
+}

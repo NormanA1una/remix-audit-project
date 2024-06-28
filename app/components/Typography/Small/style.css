@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .small-style {
+    @apply font-medium text-sm text-[#151718] leading-[24px];
+  }
+}

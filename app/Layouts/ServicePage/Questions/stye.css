@@ -1,0 +1,59 @@
+@tailwind components;
+
+@layer components {
+  .questions-principal-div-container {
+    @apply px-6 container mx-auto mb-[150px];
+  }
+
+  .principal-div-text-questions {
+    @apply mb-24;
+  }
+
+  .container-question-box {
+    @apply flex flex-col relative;
+  }
+
+  .dynamic-gap-closed {
+    @apply gap-0 transition-[gap] ease-in-out duration-[0.5s];
+  }
+
+  .dynamic-gap-open {
+    @apply gap-7;
+  }
+
+  .content-question {
+    @apply overflow-hidden max-h-0 transition-[max-height] ease-in-out duration-[0.5s];
+  }
+
+  .question-open {
+    @apply max-h-60;
+  }
+
+  .question-container-icon {
+    @apply absolute right-2 bg-[#D8F3FF] h-6 w-6 rounded-full pointer-events-none transition ease-in-out duration-[0.5s];
+  }
+
+  .question-container-icon-open {
+    @apply bg-[#E3E3E3];
+  }
+
+  .line-horizontal-static {
+    @apply absolute top-1/2 left-1.5 w-[60%] h-[1px] bg-[#000000];
+  }
+
+  .line-vertical-inactive {
+    @apply absolute bottom-[45%] translate-x-[38%] w-[60%] h-[1px] rotate-90 bg-black transition ease-in-out duration-[0.5s];
+  }
+
+  .line-vertical-active {
+    @apply rotate-0;
+  }
+
+  .separator-questions {
+    @apply my-10;
+  }
+
+  .spacing-content-question {
+    @apply max-w-[300px] md:max-w-[700px] lg:max-w-none;
+  }
+}

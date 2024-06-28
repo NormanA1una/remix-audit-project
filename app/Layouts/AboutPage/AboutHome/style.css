@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+  .about-home-style {
+    @apply h-full bg-[#FEFEFE] pt-[90px] xl:pt-[98px] mb-[150px] md:mb-[205px] lg:mb-52 text-[#FCFCFC] bg-[url('/images/BackgroundPatternLight.svg')] bg-no-repeat bg-[center_1px] bg-auto lg:bg-cover;
+  }
+
+  .container-about-home {
+    @apply px-6 container mx-auto pt-16 xl:pt-24 pb-16;
+  }
+
+  .about-buttons {
+    @apply flex flex-col md:flex-row justify-center items-center gap-5 mb-[75px];
+  }
+}

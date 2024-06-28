@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .h3-styling {
+    @apply font-bold text-3xl text-[#101828] leading-[38px];
+  }
+}

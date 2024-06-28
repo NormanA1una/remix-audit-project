@@ -1,0 +1,39 @@
+<svg width="327" height="140" viewBox="0 0 327 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_606_4618)">
+<mask id="mask0_606_4618" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-518" y="-999" width="1441" height="1440">
+<rect width="1440" height="1440" transform="matrix(-1 0 0 1 922.333 -999)" fill="url(#paint0_radial_606_4618)"/>
+</mask>
+<g mask="url(#mask0_606_4618)">
+<g clip-path="url(#clip1_606_4618)">
+<g clip-path="url(#clip2_606_4618)">
+<line y1="-0.5" x2="1440" y2="-0.5" transform="matrix(0 1 1 0 282.333 -999)" stroke="#A5B7C0"/>
+<line y1="-0.5" x2="1440" y2="-0.5" transform="matrix(0 1 1 0 202.333 -999)" stroke="#A5B7C0"/>
+<line y1="-0.5" x2="1440" y2="-0.5" transform="matrix(0 1 1 0 122.333 -999)" stroke="#A5B7C0"/>
+<line y1="-0.5" x2="1440" y2="-0.5" transform="matrix(0 1 1 0 42.3335 -999)" stroke="#A5B7C0"/>
+</g>
+<g clip-path="url(#clip3_606_4618)">
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1162.33 40.9999)" stroke="#A5B7C0"/>
+<line y1="-0.5" x2="1920" y2="-0.5" transform="matrix(-1 0 0 1 1162.33 121)" stroke="#A5B7C0"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_606_4618" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(720 -0.000171661) rotate(90) scale(1440 751.588)">
+<stop/>
+<stop offset="0.953125" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_606_4618">
+<rect width="1518.33" height="1138.75" fill="white" transform="matrix(-1 0 0 1 961.333 -999)"/>
+</clipPath>
+<clipPath id="clip1_606_4618">
+<rect width="1920" height="1440" fill="white" transform="matrix(-1 0 0 1 1162.33 -999)"/>
+</clipPath>
+<clipPath id="clip2_606_4618">
+<rect width="1920" height="1440" fill="white" transform="matrix(-1 0 0 1 1162.33 -999)"/>
+</clipPath>
+<clipPath id="clip3_606_4618">
+<rect width="1920" height="1440" fill="white" transform="matrix(-1 0 0 1 1162.33 -999)"/>
+</clipPath>
+</defs>
+</svg>

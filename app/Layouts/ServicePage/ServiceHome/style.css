@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  .service-home-style {
+    @apply h-full bg-[#FEFEFE] pt-[90px] xl:pt-[98px]  mb-[150px] md:mb-[205px] lg:mb-[100px] text-[#FCFCFC] bg-[url('/images/BackgroundPatternLight.svg')] bg-no-repeat bg-[center_1px] bg-auto lg:bg-contain;
+  }
+
+  .container-service-home {
+    @apply px-6 container mx-auto pt-16 xl:pt-24 pb-16;
+  }
+}

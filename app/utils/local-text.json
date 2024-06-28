@@ -1,0 +1,132 @@
+{
+  "layouts": {
+    "home": {
+      "principal-title": "Certified translations for your immigration process",
+      "principal-subtitle": "Certified translations for immigration purposes with guaranteed acceptance by USCIS. We ensure a smooth transition in your immigration process to the United States.",
+      "button-1": "Get a quote",
+      "button-2": "For Law Firms",
+      "hero-image": {
+        "certified": "100% Certified by the industry",
+        "english-flag": {
+          "src": "/images/englishHero.svg",
+          "alt": "United States flag and the word English"
+        },
+        "principal-image": {
+          "src": "/images/imageHero.webp",
+          "alt": "Young people meeting in an office"
+        },
+        "spanish-flag": {
+          "src": "/images/spanishHero.svg",
+          "alt": "Spanish flag and the word Spanish"
+        }
+      },
+      "industries": [
+        {
+          "src": "/images/certified1.svg",
+          "alt": "Certified BBB A+ Rating",
+          "width": 133
+        },
+        {
+          "src": "/images/certified2.svg",
+          "alt": "American Translation Association",
+          "width": 255
+        },
+        {
+          "src": "/images/certified3.svg",
+          "alt": "U.S. Citizenship and Inmigration Services",
+          "width": 174
+        },
+        {
+          "src": "/images/certified4.svg",
+          "alt": "USCIS Acceptance Guarantee",
+          "width": 59
+        }
+      ]
+    },
+    "services": {
+      "principal-title": "Explore our translation services",
+      "principal-subtitle": "By hiring our translation services, you ensure that your documents are in capable hands and you will be a step closer to the success of your immigration journey.",
+      "services-preview": [
+        {
+          "iconUrl": "/images/iconSD.svg",
+          "alt": "Icon for Standard Translation",
+          "title": "Standard translation",
+          "text": "Get high-quality translations for general documents at a competitive rate. Ideal for legal, business, and other standard texts.",
+          "height": 62,
+          "width": 73
+        },
+        {
+          "iconUrl": "/images/iconPeopleCertificate.svg",
+          "alt": "Icon for Page Birth or Death Certificate",
+          "title": "Page Birth or Death Certificate",
+          "text": "Receive certified translations for documents such as birth and death certificates. Our service ensures accuracy and compliance with official requirements by USCIS.",
+          "height": 72,
+          "width": 62
+        },
+        {
+          "iconUrl": "/images/iconID.svg",
+          "alt": "Icon for ID",
+          "title": "ID",
+          "text": "Get translations for identification documents like driver’s licenses or national ID cards. Perfect for immigration or legal purposes.",
+          "height": 62,
+          "width": 71
+        },
+        {
+          "iconUrl": "/images/iconDiploma.svg",
+          "alt": "Icon for Diploma",
+          "title": "Diploma",
+          "text": "We translate academic documents such as diplomas and certificates with guaranteed accuracy. Suitable for education and career-related needs.",
+          "height": 67,
+          "width": 78
+        },
+        {
+          "iconUrl": "/images/iconST.svg",
+          "alt": "Icon for Technical Translation",
+          "title": "Technical Translation",
+          "text": "Get specialized translations for legal complex documents. We ensure industry-specific terminology is accurately translated.",
+          "height": 66,
+          "width": 67
+        }
+      ],
+      "link-service-page": "View all services"
+    },
+    "process": {
+      "principal-title": "Our process",
+      "principal-subtitle": "Our process is straightforward. Simply upload your documents, and we’ll handle the rest. Accurate and timely translations guaranteed!",
+      "process-steps": [
+        {
+          "imgUrl": "/images/loadDoc.svg",
+          "imgUrlDesktop": "/images/loadDoc.svg",
+          "altImg": "Icon with DOC word",
+          "processTitle": "1. Submit your documents",
+          "processText": "Fill out the form and upload the documents you want us to translate for you.",
+          "heightMobile": 90
+        },
+        {
+          "imgUrl": "/images/quoteIconMobile.svg",
+          "imgUrlDesktop": "/images/quoteIconDesktop.svg",
+          "altImg": "Icon with a calculator",
+          "processTitle": "2. Receive a quote",
+          "processText": "We will assess the number of pages and complexity to provide you with a clear quote and set expectations.",
+          "heightMobile": 134
+        },
+        {
+          "imgUrl": "/images/translateIconMobile.svg",
+          "imgUrlDesktop": "/images/translateIconDesktop.svg",
+          "altImg": "Icon with a translate symbol",
+          "processTitle": "3. Get your translated documents",
+          "processText": "Once approved, we translate your documents and deliver them on time, as promised.",
+          "heightMobile": 134
+        }
+      ],
+      "image-upload": {
+        "src": "/images/uploadFile.svg",
+        "alt": "Computer uploading data to the cloud"
+      }
+    },
+    "carousel": {
+      "principal-title": "What our clients think about our services",
+      "carousel-subtitle": "Find out how we've helped clients with their translation needs. Explore their success stories and the impact of our work"
+    }
+  }
+}

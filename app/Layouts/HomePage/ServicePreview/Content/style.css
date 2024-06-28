@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  .container-preview {
+    @apply max-w-[250px] z-10;
+  }
+
+  .div-for-image {
+    @apply flex justify-center items-center mb-[30px] h-[72px];
+  }
+}

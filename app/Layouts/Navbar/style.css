@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  .navbar-style {
+    @apply bg-[#151718] fixed top-0 left-0 right-0 flex items-center py-6 justify-between lg:justify-around text-[#FCFCFC] z-50;
+  }
+
+  .navbar-style-light {
+    @apply bg-[#FEFEFE] fixed top-0 left-0 right-0 flex items-center py-6 justify-between lg:justify-around text-[#3E4348] z-50;
+  }
+}

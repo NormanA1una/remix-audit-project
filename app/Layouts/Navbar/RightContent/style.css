@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer {
+  .right-section-style {
+    @apply hidden lg:flex items-center gap-8;
+  }
+}

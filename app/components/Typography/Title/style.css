@@ -1,0 +1,22 @@
+@tailwind components;
+
+@layer components {
+  .title-style {
+    @apply font-semibold text-[32px] md:text-[38px] xl:text-5xl leading-[44px] xl:leading-[56px];
+  }
+
+  /* Benefit custom */
+  .benefit-typo-custom {
+    @apply text-[25px] font-semibold min-[600px]:text-[38px] xl:text-5xl leading-[38.77px] xl:leading-[56px];
+  }
+
+  /* Language custom */
+  .language-card-title {
+    @apply font-semibold text-[25px] md:text-[38px] xl:text-5xl leading-[44px] xl:leading-[56px];
+  }
+
+  /* Values custom */
+  .values-card-custom-text {
+    @apply text-center lg:text-left;
+  }
+}

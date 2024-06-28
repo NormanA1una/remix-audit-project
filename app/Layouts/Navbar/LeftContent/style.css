@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .logo-style {
+    @apply ml-6 lg:ml-0 lg:w-[229px];
+  }
+}

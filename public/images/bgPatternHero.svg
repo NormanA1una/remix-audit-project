@@ -1,0 +1,60 @@
+<svg width="1440" height="869" viewBox="0 0 1440 869" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="mask0_223_6335" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="-571"
+        width="1440" height="1440">
+        <rect width="1440" height="1440" transform="translate(0 -571)"
+            fill="url(#paint0_radial_223_6335)" />
+    </mask>
+    <g mask="url(#mask0_223_6335)">
+        <g clip-path="url(#clip0_223_6335)">
+            <g clip-path="url(#clip1_223_6335)">
+                <line x1="0.5" y1="-571" x2="0.5" y2="869" stroke="#333434" />
+                <line x1="80.5" y1="-571" x2="80.5" y2="869" stroke="#333434" />
+                <line x1="160.5" y1="-571" x2="160.5" y2="869" stroke="#333434" />
+                <line x1="240.5" y1="-571" x2="240.5" y2="869" stroke="#333434" />
+                <line x1="320.5" y1="-571" x2="320.5" y2="869" stroke="#333434" />
+                <line x1="400.5" y1="-571" x2="400.5" y2="869" stroke="#333434" />
+                <line x1="480.5" y1="-571" x2="480.5" y2="869" stroke="#333434" />
+                <line x1="560.5" y1="-571" x2="560.5" y2="869" stroke="#333434" />
+                <line x1="640.5" y1="-571" x2="640.5" y2="869" stroke="#333434" />
+                <line x1="720.5" y1="-571" x2="720.5" y2="869" stroke="#333434" />
+                <line x1="800.5" y1="-571" x2="800.5" y2="869" stroke="#333434" />
+                <line x1="880.5" y1="-571" x2="880.5" y2="869" stroke="#333434" />
+                <line x1="960.5" y1="-571" x2="960.5" y2="869" stroke="#333434" />
+                <line x1="1040.5" y1="-571" x2="1040.5" y2="869" stroke="#333434" />
+                <line x1="1120.5" y1="-571" x2="1120.5" y2="869" stroke="#333434" />
+                <line x1="1200.5" y1="-571" x2="1200.5" y2="869" stroke="#333434" />
+                <line x1="1280.5" y1="-571" x2="1280.5" y2="869" stroke="#333434" />
+                <line x1="1360.5" y1="-571" x2="1360.5" y2="869" stroke="#333434" />
+            </g>
+            <g clip-path="url(#clip2_223_6335)">
+                <line x1="-240" y1="68.5" x2="1680" y2="68.5" stroke="#333434" />
+                <line x1="-240" y1="148.5" x2="1680" y2="148.5" stroke="#333434" />
+                <line x1="-240" y1="228.5" x2="1680" y2="228.5" stroke="#333434" />
+                <line x1="-240" y1="308.5" x2="1680" y2="308.5" stroke="#333434" />
+                <line x1="-240" y1="388.5" x2="1680" y2="388.5" stroke="#333434" />
+                <line x1="-240" y1="468.5" x2="1680" y2="468.5" stroke="#333434" />
+                <line x1="-240" y1="548.5" x2="1680" y2="548.5" stroke="#333434" />
+                <line x1="-240" y1="628.5" x2="1680" y2="628.5" stroke="#333434" />
+                <line x1="-240" y1="708.5" x2="1680" y2="708.5" stroke="#333434" />
+                <line x1="-240" y1="788.5" x2="1680" y2="788.5" stroke="#333434" />
+            </g>
+        </g>
+    </g>
+    <defs>
+        <radialGradient id="paint0_radial_223_6335" cx="0" cy="0" r="1"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(720 -0.000171661) rotate(90) scale(1440 751.588)">
+            <stop />
+            <stop offset="0.953125" stop-opacity="0" />
+        </radialGradient>
+        <clipPath id="clip0_223_6335">
+            <rect width="1920" height="1440" fill="white" transform="translate(-240 -571)" />
+        </clipPath>
+        <clipPath id="clip1_223_6335">
+            <rect width="1920" height="1440" fill="white" transform="translate(-240 -571)" />
+        </clipPath>
+        <clipPath id="clip2_223_6335">
+            <rect width="1920" height="1440" fill="white" transform="translate(-240 -571)" />
+        </clipPath>
+    </defs>
+</svg>

@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+  .principal-div-hero-img {
+    @apply h-fit xl:px-[10%] w-full mx-auto;
+  }
+
+  .img-section {
+    @apply flex justify-center h-full relative w-fit mx-auto pb-10 md:pb-6 px-[19px];
+  }
+
+  .english-flag {
+    @apply absolute top-[10.5%] md:top-[6%] lg:top-10 left-0 xl:-left-[35px] w-[107px] md:w-[120px] xl:w-auto;
+  }
+
+  .spanish-flag {
+    @apply absolute bottom-[36%] md:bottom-[25%] xl:bottom-[25%] right-0  xl:-right-[3%] w-[107px] md:w-[120px] xl:w-auto;
+  }
+
+  .spacing-img-central-home {
+    @apply flex justify-center items-center;
+  }
+
+  .img-central-home {
+    @apply w-auto h-auto;
+  }
+}

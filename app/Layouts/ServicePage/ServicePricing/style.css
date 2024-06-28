@@ -1,0 +1,43 @@
+@tailwind components;
+
+@layer components {
+  .div-principal-container-pricing {
+    @apply px-6 container mx-auto mb-[128px];
+  }
+
+  .div-pricing-principal-titles {
+    @apply flex flex-col gap-5 mb-14 lg:mb-20;
+  }
+
+  .pricing-subtitle-spanish {
+    @apply max-w-[900px] mx-auto;
+  }
+
+  .div-grid-layout-pricing {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-fit mx-auto gap-x-12 gap-y-16;
+  }
+
+  .div-top-section-card-pricing {
+    @apply flex flex-col justify-around h-[202px] border border-[#E8E8E8] rounded-[20px] p-6 mb-5;
+  }
+
+  .bg-priority {
+    @apply bg-gradient-to-tl from-[#012F5B] from-60% to-[#004C94] to-90%;
+  }
+
+  .bg-normal {
+    @apply bg-[#FBFDFF];
+  }
+
+  .img-position-icon {
+    @apply absolute -top-5 left-14;
+  }
+
+  .div-pricing-spacing {
+    @apply flex items-center gap-2;
+  }
+
+  .full-space {
+    @apply w-full;
+  }
+}

@@ -1,0 +1,39 @@
+@tailwind components;
+
+@layer components {
+  .purpose-div-container {
+    @apply px-6 container mx-auto mb-[128px] lg:mb-52;
+  }
+
+  .div-styling-content {
+    @apply flex flex-col gap-10;
+  }
+
+  .div-purpose-container {
+    @apply flex flex-col md:justify-between md:items-center gap-6;
+  }
+
+  .mision-direction {
+    @apply md:flex-row;
+  }
+
+  .vision-direction {
+    @apply md:flex-row-reverse;
+  }
+
+  .div-text-purpose {
+    @apply flex flex-col gap-5 md:max-w-[430px] lg:max-w-[470px] xl:max-w-[500px];
+  }
+
+  .div-img-purpose {
+    @apply pl-[15px] pt-[15px] flex w-fit;
+  }
+
+  .mision-img-placement {
+    @apply ml-auto md:ml-0;
+  }
+
+  .img-purpose-style {
+    @apply drop-shadow-[-15px_-15px_0px_#57BEEA] rounded-xl h-[133.25px] lg:h-auto;
+  }
+}

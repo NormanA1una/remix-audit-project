@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .certified-container-bg {
+    @apply bg-gradient-to-b from-[#151618] from-60% md:from-[77%] lg:from-80% to-white to-60% md:to-[77%] lg:to-80% px-6;
+  }
+}

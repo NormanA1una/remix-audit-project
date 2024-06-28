@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  .paragraph-style {
+    @apply font-normal text-base text-[#475467] leading-[28px];
+  }
+}

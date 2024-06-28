@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+  .footer-container {
+    @apply bg-[#0D0F10] px-6 py-16 lg:py-16 lg:flex lg:flex-row-reverse lg:justify-between xl:px-52;
+  }
+
+  .div-text-footer {
+    @apply flex flex-wrap gap-10 justify-between mb-10;
+  }
+
+  .conteiner-text-footer {
+    @apply flex flex-col gap-10;
+  }
+
+  .list-footer {
+    @apply flex flex-col gap-5 text-[#6D6D6D] font-medium leading-[19.36px];
+  }
+
+  .div-logo-footer {
+    @apply flex flex-col gap-6 lg:max-w-[378px];
+  }
+
+  .container-social-media {
+    @apply flex items-center gap-4;
+  }
+}

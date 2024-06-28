@@ -1,0 +1,23 @@
+@tailwind components;
+
+@layer components {
+  .div-container-form-services {
+    @apply lg:bg-[#FEFEFE] lg:pt-0 lg:pb-20 lg:px-12 xl:pb-28 xl:px-56;
+  }
+
+  .div-into-form-services {
+    @apply flex flex-col md:flex-row;
+  }
+
+  .div-bg-form-services {
+    @apply bg-[url('/images/formImage.webp')] bg-no-repeat bg-cover bg-center h-[192px] md:h-[457px] w-full md:w-[100%] rounded-xl mb-[38px] md:mb-4;
+  }
+
+  .alert-active-services {
+    @apply md:w-[60%] md:mr-10 md:min-w-[239.63px];
+  }
+
+  .div-text-before-form-services {
+    @apply hidden md:flex md:flex-col md:gap-2;
+  }
+}

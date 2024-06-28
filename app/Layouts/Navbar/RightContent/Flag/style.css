@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  .div-lenguage-flags {
+    @apply cursor-pointer;
+  }
+
+  .form-buttons-navbar {
+    @apply flex w-[54px];
+  }
+}
